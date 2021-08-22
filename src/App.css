@@ -78,18 +78,26 @@ form button:hover {
 .todo-list {
   min-width: 30%;
   list-style: none;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+
+ 
 }
 
 .todo {
   margin: 0.5rem;
-  background: white;
+  background:white;
   font-size: 1.5rem;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
+  border-radius: 14px;
 }
+
 .filter-todo {
   padding: 1rem;
 }
@@ -99,20 +107,25 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
-  color: white;
+  background:transparent;
+  color: red;
   border: none;
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
+  border-radius:12px;
+
 }
 .trash-btn:hover {
   background: #DA0037;
   color: white;
 }
 .complete-btn {
-  background:#9EDE73 ;
+  color:#9EDE73 ;
+  
+  
 }
+
 .complete-btn:hover {
   background: rgb(11, 212, 162);
   color: white;
@@ -170,14 +183,25 @@ form button:hover {
  }
  .todo-item{
    font-size: 15px;
+   display:flex;
+   flex-wrap: wrap;
  }
  .todo-list{
-   max-width: 100%;
+   max-width: 99%;
    display:flex;
    flex-wrap: wrap;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
+   overflow: scroll;
+   text-overflow: ellipsis;
   
+ }
+ .todo-app{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
  }
  .footer{
    margin-bottom: 0;

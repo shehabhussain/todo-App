@@ -27,6 +27,7 @@ const Form = ({ setInputText, todos, setTodos, inputText }) => {
 					className="todo-input"
 				/>
 				<button
+					disabled={!inputText}
 					onClick={submitTodoHandler}
 					className="todo-button"
 					type="submit"
