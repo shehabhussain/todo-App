@@ -160,7 +160,7 @@ form button:hover {
  form input{
    margin-left: 0;
    padding-left: 0;
-   font-size:1rem;
+   font-size:1.3rem;
  }
  form button{
   display:flex;
@@ -185,7 +185,7 @@ form button:hover {
   
  }
  .todo-item{
-   font-size: 15px;
+   font-size: 2rem;
    display:flex;
    flex-wrap: wrap;
  }
