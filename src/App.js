@@ -20,7 +20,7 @@ function App() {
 			/>
 			<TodoList setTodos={setTodos} todos={todos} />
 			<div className="footer">
-				<p>Made with 🔥🚀Shehab Hussain 2021</p>
+				<p>Made with 🔥🚀 by Shehab Hussain 2021</p>
 			</div>
 		</div>
 	);
