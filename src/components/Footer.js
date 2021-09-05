@@ -5,7 +5,7 @@ const Footer = () => {
 	const year = new Date().getFullYear();
 	return (
 		<div className="footer">
-			<h4> © Shehab Hussain {year}</h4>
+			<h4>Made with 🔥🚀 Shehab Hussain {year}</h4>
 		</div>
 	);
 };
