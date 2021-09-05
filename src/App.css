@@ -2,7 +2,7 @@
 body {
   background-image: linear-gradient(270deg, #f6d365 20%, #77ACF1 100%);
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Dancing Script', cursive;
   min-height: 100%;
 }
 .division{
@@ -17,9 +17,11 @@ body {
   box-shadow:#ffffff;
 }
 h1{
-  font-size: 40px;
+  font-size: 3rem;
   font-weight:lighter;
   color:#7251b5;
+  margin-top:5px;
+  margin-bottom: 0;
 }
 .todo-app{
 min-height:500px;
@@ -34,7 +36,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-top: -1px;
 }
 form input,
 form button {
@@ -144,13 +146,14 @@ form button:hover {
   padding-bottom:0;
   text-align: center;
   color:#7251b5;
+  font-size: 1.5rem;
   
 }
 
 @media all and (max-width:520px){
  h1{
    max-width: 375px;
-   font-size: 30px;
+   font-size: 45px;
   
    
  }
@@ -205,6 +208,7 @@ form button:hover {
  }
  .footer{
    margin-bottom: 0;
+   
   /* margin:auto; */
  
  }
