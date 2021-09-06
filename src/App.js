@@ -10,7 +10,9 @@ function App() {
 	return (
 		<div className="todo-app">
 			<header>
-				<h1>Shehab's ToDo List</h1>
+				<h1>
+					<strong>Shehab's ToDo List</strong>
+				</h1>
 			</header>
 			<Form
 				inputText={inputText}
@@ -20,7 +22,7 @@ function App() {
 			/>
 			<TodoList setTodos={setTodos} todos={todos} />
 			<div className="footer">
-				<p>Made with 🔥🚀 by Shehab Hussain 2021</p>
+				<p>Made with 🔥🚀 by Shehab Hussain</p>
 			</div>
 		</div>
 	);
